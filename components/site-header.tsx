@@ -7,6 +7,7 @@ import { Command, Menu, X } from "lucide-react"
 const NAV_ITEMS = [
   { label: "About", href: "/about" },
   { label: "Projects", href: "/projects" },
+  { label: "Resume", href: "/resume" },
 ]
 
 export function SiteHeader({ current }: { current?: string }) {
